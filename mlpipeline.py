@@ -45,4 +45,3 @@ ml_df = pd.concat([X_cat_En,X_cat_En1,X_num_en],axis=1)
 
 print(ml_df)
 print('Data proceed for machine learning')
-
