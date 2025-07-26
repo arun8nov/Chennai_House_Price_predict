@@ -62,6 +62,8 @@ df.STREET.replace({
 
 df['BUILDING_AGE'] = df.SALE_YEAR - df.BUILD_YEAR
 
+df.reset_index(drop=True,inplace=True)
+
 chennai_house_df = df.copy()
 
 print(chennai_house_df.head())
