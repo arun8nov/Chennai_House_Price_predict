@@ -17,10 +17,6 @@ env/
 *.log
 *.sqlite3
 
-# Data files
-*.csv
-*.xlsx
-
 # OS files
 .DS_Store
 Thumbs.db
