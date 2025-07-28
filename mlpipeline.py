@@ -8,7 +8,7 @@ import datetime
 from datetime import datetime
 import warnings
 warnings.filterwarnings("ignore")
-from Clean import chennai_house_df
+from Cleanpipeline import chennai_house_df
 import sklearn
 
 df = chennai_house_df.copy()
