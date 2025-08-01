@@ -8,10 +8,14 @@ import datetime
 from datetime import datetime
 import warnings
 warnings.filterwarnings("ignore")
-from Cleanpipeline import chennai_house_df
 import sklearn
 
-df = chennai_house_df.copy()
+df = pd.read_csv("Chennai housing sale.csv")
+
+from PiplineFunction import Chennai_House
+Ch = Chennai_House()
+
+df = Ch.Data_Clean(df)
 
 # Select required columns
 
